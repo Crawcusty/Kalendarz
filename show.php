@@ -8,5 +8,17 @@
 	 {
 		 echo 'Nie udało się nic wyświetlić.';
 	 }
-	
+	 else
+	 {
+		
+	 }
+	 while($row = mysqli_fetch_array($records))
+	 {
+		 echo "<tr>";
+		 echo "<td>".$row['name']."</td>";
+		 echo "<td>".$row['time']."</td>";
+		 echo "<td>".$row['date']."</td>";
+		 echo "<td>".$row['location']."</td>";
+		 echo "<td>".$row['description']."</td>";		 
+	 }
 	 ?>
