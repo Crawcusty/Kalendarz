@@ -12,7 +12,16 @@
 			<th>Data:</th>
 			<th>Lokalizacja:</th>
 			<th>Opis:</th>
-			
+				<?php
+	include("show.php");
+	?>
+	</tr>
+	</table>
+	<br>
+		<form method="get" action="index.html">
+		<button type="submit">Strona główna</button>
+		</form>
+	</center>
 		
 
 	
